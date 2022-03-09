@@ -123,6 +123,7 @@ dist
 .vscode-test
 
 # yarn v2
+yarn.lock
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
@@ -134,6 +135,10 @@ dist
 .webpack/
 
 # Optional stylelint cache
+
+# DataBase SQLite
+.sqlite-control
+./database/migrations/database.sqlite
 
 # SvelteKit build / generate output
 .svelte-kit
